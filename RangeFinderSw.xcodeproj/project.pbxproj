@@ -140,11 +140,11 @@
 		834A527D1BBDAF98000F94AC /* RangeFinderSw */ = {
 			isa = PBXGroup;
 			children = (
+				834A52841BBDAF98000F94AC /* Main.storyboard */,
 				834A527E1BBDAF98000F94AC /* AppDelegate.swift */,
 				834A52801BBDAF98000F94AC /* FirstViewController.swift */,
 				834A52821BBDAF98000F94AC /* SecondViewController.swift */,
 				834A52D51BBDB489000F94AC /* SetupViewController.swift */,
-				834A52841BBDAF98000F94AC /* Main.storyboard */,
 				834A52871BBDAF98000F94AC /* Assets.xcassets */,
 				834A52891BBDAF98000F94AC /* LaunchScreen.storyboard */,
 				834A528C1BBDAF98000F94AC /* Info.plist */,
