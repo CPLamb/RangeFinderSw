@@ -106,6 +106,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Height" image="IconHeight24.png" id="cPa-gy-q4n"/>
+                    <navigationItem key="navigationItem" id="b8d-TB-Q2j"/>
                     <simulatedStatusBarMetrics key="simulatedStatusBarMetrics" statusBarStyle="lightContent"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
@@ -114,7 +115,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4Nw-L8-lE0" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="895.5" y="132.5"/>
+            <point key="canvasLocation" x="1731.5" y="148.5"/>
         </scene>
         <!--Setup-->
         <scene sceneID="ccO-IC-5k0">
@@ -180,6 +181,7 @@
                         </subviews>
                     </view>
                     <tabBarItem key="tabBarItem" title="Setup" image="IconSetup24.png" id="Dqk-SZ-rjE"/>
+                    <navigationItem key="navigationItem" id="pZe-AG-7yo"/>
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" barStyle="black" prompted="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" barStyle="black" translucent="NO"/>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
@@ -187,7 +189,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bHT-Qm-ZqE" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="749.5" y="767.5"/>
+            <point key="canvasLocation" x="1393.5" y="783.5"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
@@ -204,14 +206,55 @@
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
-                        <segue destination="k8K-9y-weM" kind="relationship" relationship="viewControllers" id="wLo-ZW-rHx"/>
                         <segue destination="Fuk-An-DVA" kind="relationship" relationship="viewControllers" id="h14-ce-d6o"/>
+                        <segue destination="vCo-oc-1oZ" kind="relationship" relationship="viewControllers" id="CYo-1D-Y4L"/>
+                        <segue destination="6O9-e2-hIG" kind="relationship" relationship="viewControllers" id="hFJ-lX-r7m"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="0.0" y="0.0"/>
+            <point key="canvasLocation" x="2" y="506"/>
+        </scene>
+        <!--Height-->
+        <scene sceneID="Jwn-pB-tmF">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="vCo-oc-1oZ" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Height" image="IconHeight24.png" id="Vt2-yi-SnD"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="UPA-K5-XdL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="8rJ-Kc-sve" kind="relationship" relationship="rootViewController" id="LpJ-Tz-0l8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IyT-FQ-jDe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="895.5" y="148.5"/>
+        </scene>
+        <!--Setup-->
+        <scene sceneID="6Vv-In-KIP">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="6O9-e2-hIG" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Setup" image="IconSetup24.png" id="jiA-4b-Hfd"/>
+                    <nil key="simulatedStatusBarMetrics"/>
+                    <nil key="simulatedTopBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="3J8-da-op9">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="k8K-9y-weM" kind="relationship" relationship="rootViewController" id="v4J-4J-CtQ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ejZ-xi-QtK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="749.5" y="783.5"/>
         </scene>
     </scenes>
     <resources>
