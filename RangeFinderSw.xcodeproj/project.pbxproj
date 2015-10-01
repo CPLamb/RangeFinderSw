@@ -35,6 +35,7 @@
 		834A52D31BBDB45F000F94AC /* splashMotto-640x1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 834A52C01BBDB45F000F94AC /* splashMotto-640x1136.png */; };
 		834A52D41BBDB45F000F94AC /* TreeStanford.png in Resources */ = {isa = PBXBuildFile; fileRef = 834A52C11BBDB45F000F94AC /* TreeStanford.png */; };
 		834A52D61BBDB489000F94AC /* SetupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A52D51BBDB489000F94AC /* SetupViewController.swift */; };
+		B4FC44831BBDCFDD003627A1 /* HeightFinderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4FC44821BBDCFDD003627A1 /* HeightFinderViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +90,7 @@
 		834A52C01BBDB45F000F94AC /* splashMotto-640x1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "splashMotto-640x1136.png"; sourceTree = "<group>"; };
 		834A52C11BBDB45F000F94AC /* TreeStanford.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TreeStanford.png; sourceTree = "<group>"; };
 		834A52D51BBDB489000F94AC /* SetupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupViewController.swift; sourceTree = "<group>"; };
+		B4FC44821BBDCFDD003627A1 /* HeightFinderViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeightFinderViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,6 +150,7 @@
 				834A52871BBDAF98000F94AC /* Assets.xcassets */,
 				834A52891BBDAF98000F94AC /* LaunchScreen.storyboard */,
 				834A528C1BBDAF98000F94AC /* Info.plist */,
+				B4FC44821BBDCFDD003627A1 /* HeightFinderViewController.swift */,
 			);
 			path = RangeFinderSw;
 			sourceTree = "<group>";
@@ -349,6 +352,7 @@
 				834A52831BBDAF98000F94AC /* SecondViewController.swift in Sources */,
 				834A527F1BBDAF98000F94AC /* AppDelegate.swift in Sources */,
 				834A52811BBDAF98000F94AC /* FirstViewController.swift in Sources */,
+				B4FC44831BBDCFDD003627A1 /* HeightFinderViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,6 +579,7 @@
 				834A52A71BBDAF98000F94AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		834A52A81BBDAF98000F94AC /* Build configuration list for PBXNativeTarget "RangeFinderSwTests" */ = {
 			isa = XCConfigurationList;
@@ -583,6 +588,7 @@
 				834A52AA1BBDAF98000F94AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		834A52AB1BBDAF98000F94AC /* Build configuration list for PBXNativeTarget "RangeFinderSwUITests" */ = {
 			isa = XCConfigurationList;
@@ -591,6 +597,7 @@
 				834A52AD1BBDAF98000F94AC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
